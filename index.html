@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Lotus Asia House</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <a id="linkToMainContent" href="#main-content">Navigera till innehåll</a>
+
+    <nav>
+        <div id="navLogo">
+            <a href="index.html"><img class="navLogo_img" src="lotuslogo.png" alt="Restaurant logo" /></a>
+        </div>
+        <div id="navLinks">
+            <a href="#book">Boka bord</a>
+            <a href="#menu">Meny</a>
+            <a href="#about">Om oss</a>
+            <a href="#contact">Kontakt</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="main-content" class="introTextContainer">
+            <h1 tabindex="0">Välkommen till Lotus Aisa House!</h1>
+            <p class="introText">
+                På Lotus Asia House får du besöka Kina för en kväll och njuta av detta
+                fantastiska lands karaktäristiska smaker, dofter och atmosfär. Vi
+                erbjuder en mängd kinesiska rätter och vill ge dig en kväll att minnas.
+                Boka bord direkt på vår webbplats, eller ring oss för mer information.
+            </p>
+        </section>
+
+        <div class="restaurantPictureContainer">
+            <img class="restaurantPhoto" src="restaurantPhoto.jpg"
+                alt="Restaurant photo showing tables with red chairs and napkins and many round rice lamps hanging from the ceiling." />
+        </div>
+
+        <section id="book" class="booking">
+            <h2 tabindex="0">Boka bord</h2>
+            <br>
+            <p>
+                Här kan du boka bord. Skicka in ett önskemål om datum, tid och antal i sällskapet så återkommer vi till
+                dig!
+            </p>
+            <br>
+            <div class="bookATable">
+                <label>
+                    Bokningsönskemål:
+                    <br>
+                    <input id="bookingInput" type="text" />
+                </label>
+                <br>
+                <button onclick=confirmBooking()>Boka!</button>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 tabindex="0">Meny</h2>
+            <br>
+            <p>Spana in vår härliga meny!</p>
+
+            <div class="menuAlternatives">
+                <a href="#">Förrätter</a>
+                <a href="#">Huvudrätter</a>
+                <a href="#">Efterrätter</a>
+                <a href="#">Tillbehör</a>
+                <a href="#">Dryck</a>
+            </div>
+
+            </div>
+            <br>
+        </section>
+
+        <section id="about" class="aboutRestaurant">
+            <h2 tabindex="0">Om oss</h2>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto
+                soluta fugiat assumenda, corporis dignissimos sit recusandae?
+                Consequatur nihil odio nam harum praesentium. Voluptatum dolor sequi
+                harum qui repellat quam. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. In, exercitationem repellat recusandae possimus
+                eveniet, rem itaque ab animi impedit maiores delectus officia incidunt
+                quia sapiente error quam rerum velit corrupti? Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Aspernatur, doloremque id. Ratione
+                aliquid nostrum officiis ab totam sapiente in, similique earum placeat,
+                perferendis itaque aliquam aut voluptates?
+            </p>
+            <br>
+            <br>
+            <img id="owners" src="restaurantOwners.jpg" alt="An older asian couple smiling into the camera." />
+            <br>
+        </section>
+
+        <footer id="contact" class="contactInformation">
+            <h2 tabindex="0">Kontakt</h2>
+            <br>
+            <p>
+                Ring oss på: 08-12 34 56
+                <br>
+                Mail: <a href="lotusasiahouse@mailadress.se">lotusasiahouse@mailadress.se</a>
+            </p>
+            <br>
+        </footer>
+    </main>
+</body>
+
+</html>
